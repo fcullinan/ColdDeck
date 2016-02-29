@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cold Deck</string>
+    <string name="stats_display">StatsActivity</string>
+    <string name="number_ten">=</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="jack">J</string>
+    <string name="queen">Q</string>
+    <string name="king">K</string>
+    <string name="spades">}</string>
+    <string name="clubs">]</string>
+    <string name="diamonds">[</string>
+    <string name="hearts">{</string>
+    <string name="deal">Deal</string>
+    <string name="heads_up">Heads Up</string>
+    <string name="clear">Clear</string>
+    <string name="backspace">Delete</string>
+    <string name="pair_chance">0 %</string>
+    <string name="headsup_chance">0 %</string>
+    <string name="highc_chance">0 %</string>
+    <string name="done_string">Done</string>
+    <string name="ace">A</string>
+</resources>

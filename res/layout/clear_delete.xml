@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="horizontal"
+	      android:layout_weight="1"
+	      android:layout_width="fill_parent"
+	      android:layout_height="0dp"
+	      >
+  <Button
+     android:text="@string/clear"
+     android:onClick="clearTable"
+     android:layout_weight="1"
+     android:layout_width="0dp"
+     android:layout_height="match_parent"
+     android:background="@drawable/black"
+     android:textColor="#FFFFFF"
+     style="@style/ColourButton"/>
+  <Button
+     android:text="@string/backspace"
+     android:onClick="deleteCard"
+     android:layout_weight="1"
+     android:layout_width="0dp"
+     android:layout_height="match_parent"
+     android:background="@drawable/yellow"
+     android:textColor="#000000"
+     style="@style/ColourButton"/>
+</LinearLayout>

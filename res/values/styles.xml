@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="YellowTitle" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textColor">#FFDD00</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  <style name="BlackBackground">
+    <item name="android:textColor">#FFDD00</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:paddingLeft">3dp</item>
+    <item name="android:layout_marginLeft">0dp</item>
+    <item name="android:layout_marginRight">0dp</item>
+    <item name="android:layout_marginTop">0dp</item>
+    <item name="android:layout_marginBottom">0dp</item>
+    <item name="android:background">@drawable/rectangle</item>
+  </style>
+  <style name="MyCasino" parent="@android:style/Theme.Black">
+    <item name="android:windowBackground">@color/cloth</item>
+    <item name="android:windowTitleStyle">@style/BlackBackground</item>
+    <item name="android:windowTitleBackgroundStyle">@style/BlackBackground</item>
+    <item name="android:actionBarStyle">@style/BlackYellowAction</item>
+  </style>
+  <style name="BlackYellowAction" parent="@android:style/Widget.ActionBar">
+    <item name="android:background">@drawable/black</item>
+    <item name="android:textColor">@drawable/yellow</item>
+  </style>
+  <style name="ColourButton" parent="@android:style/TextAppearance.Medium">
+    <item name="android:layout_marginLeft">3dp</item>
+    <item name="android:layout_marginRight">3dp</item>
+    <item name="android:layout_marginTop">3dp</item>
+    <item name="android:layout_marginBottom">3dp</item>
+  </style>
+  <style name="CardButton" parent="@android:style/TextAppearance.Medium">
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:onClick">update</item>
+    <item name="android:layout_marginLeft">3dp</item>
+    <item name="android:layout_marginRight">3dp</item>
+    <item name="android:layout_marginTop">3dp</item>
+    <item name="android:layout_marginBottom">3dp</item>
+    <item name="android:background">@drawable/buttons</item>
+  </style>
+  <style name="CardButton.Black" parent="CardButton">
+    <item name="android:textColor">#000000</item>
+  </style>
+  <style name="CardButton.Red" parent="CardButton">
+    <item name="android:textColor">#FF1111</item>
+  </style>
+</resources>

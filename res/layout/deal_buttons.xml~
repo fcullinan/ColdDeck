@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_weight="1"		
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    >
+  <Button
+     android:text="@string/heads_up"
+     android:onClick="dealHeadsUp"
+     android:layout_weight="1"
+     android:layout_height="match_parent"
+     android:layout_width="0dp"/>
+  <Button
+     android:text="@string/deal"
+     android:onClick="deal"
+     android:layout_weight="1"
+     android:layout_height="match_parent"
+     android:layout_width="0dp"/>
+</LinearLayout>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cards"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_weight="1"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	>
+    <Button
+       android:text="@string/jack"
+       android:id="@+id/jack"
+       style="@style/CardButton.Red"/>
+    <Button
+       android:text="@string/queen"
+       android:id="@+id/queen"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/king"
+       android:id="@+id/king"
+       style="@style/CardButton.Red"/>
+    <Button
+       android:text="@string/spades"
+       android:id="@+id/spades"
+       style="@style/CardButton.Black" />       
+  </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_weight="1"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	>
+    <Button
+       android:text="@string/number_seven"
+       android:id="@+id/num_seven"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/number_eight"
+       android:id="@+id/num_eight"
+       style="@style/CardButton.Red" />
+    <Button
+       android:text="@string/number_nine"
+       android:id="@+id/num_nine"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/hearts"
+       android:id="@+id/hearts"
+       style="@style/CardButton.Red" />
+  </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_weight="1"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	>
+    <Button
+       android:text="@string/number_four"
+       android:id="@+id/num_four"
+       style="@style/CardButton.Red" />
+    <Button
+       android:text="@string/number_five"
+       android:id="@+id/num_five"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/number_six"
+       android:id="@+id/num_six"
+       style="@style/CardButton.Red" />
+    <Button
+       android:text="@string/clubs"
+       android:id="@+id/clubs"
+       style="@style/CardButton.Black" />
+  </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_weight="1"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	>
+    <Button
+       android:text="@string/number_ten"
+       android:id="@+id/num_ten"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/number_two"
+       android:id="@+id/num_two"
+       style="@style/CardButton.Red" />
+    <Button
+       android:text="@string/number_three"
+       android:id="@+id/num_three"
+       style="@style/CardButton.Black" />
+    <Button
+       android:text="@string/diamonds"
+       android:id="@+id/diamonds"
+       style="@style/CardButton.Red" />
+  </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_weight="1"
+	android:layout_width="match_parent"
+	android:layout_height="0dp"
+	>
+    <Button
+       android:text="@string/ace"
+       android:id="@+id/ace"
+       style="@style/CardButton.Red" 
+       android:layout_weight="37"/>
+    <TextView
+       android:layout_width="0dp"
+       android:layout_weight="117"
+       android:layout_height="match_parent"
+       android:background="#00000000"
+       android:text="@string/deal"
+       android:id="@+id/deal_button"
+       android:textColor="#FFFFFF"/>
+  </LinearLayout>
+</LinearLayout>
